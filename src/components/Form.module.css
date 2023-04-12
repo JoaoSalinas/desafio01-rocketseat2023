@@ -1,0 +1,73 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0;
+  background: var(--grey-600);
+  gap: 8px;
+}
+
+.input {
+  width: 50%;
+  background: var(--grey-400);
+  border-radius: 8px;
+  border: none;
+  padding: 1rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 10%;
+
+  background: var(--blue-500);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 0;
+}
+
+.wrapperList {
+  background: var(--grey-600);
+  font-size: 0.875rem;
+}
+
+.wrapperList .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 5rem 0 1.5rem;
+  max-width: 60%;
+  border-bottom: 1px solid var(--grey-400);
+}
+
+.wrapperList .header div {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.wrapperList .header div span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  height: 19px;
+  background: var(--grey-400);
+  border-radius: 8px;
+  padding: 2px 8px;
+}
+
+.blueText {
+  color: var(--blue-300);
+}
+
+.purpleText {
+  color: var(--purple-500);
+}
+
+.taskList {
+  margin: 4rem auto;
+}

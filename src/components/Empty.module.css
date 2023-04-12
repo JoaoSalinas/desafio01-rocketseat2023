@@ -1,0 +1,13 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: var(--grey-300);
+}
+
+.content{
+    line-height: 22px;
+    font-size: 1rem;
+}
